@@ -1,0 +1,392 @@
+.card {
+    box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.1);
+    width: fit-content;
+     float: left;
+      margin-left: 20px;
+      height: fit-content;
+      overflow-y: scroll;
+      border: 1px white solid;
+      }
+
+      .docs-markdown table.compact{
+        font-size: 19px !important;
+      }
+
+      .pink{
+        color:pink;
+      }
+
+      .sales{
+        color:rgb(52, 109, 219);
+        background-color: rgb(218, 212, 255);
+      }
+
+      .crowns{
+        color: green;
+      }
+
+      .coolcolour{
+        color:#FFD54F
+      }
+    
+      .gameplay{
+        color:green
+      }
+      .card-container {
+        padding: 2px 16px;
+      } 
+
+      .customhr{ 
+        margin-top: 2.5rem      
+      }
+
+      .unused{
+        border-top: 2px solid black;
+
+      }
+
+      .kilive{
+        width: fit-content !important;
+        height: fit-content !important;
+        inline-size: 1000px !important;
+      }      
+      
+      .small{
+        font-size: 8px;
+      }
+
+     .language-none  {
+        font-family: monospace  !important;
+        font-size: 18px !important;
+        color: white !important;
+        overflow: hidden !important;
+      }
+
+
+
+      .importants{
+        color: blue;
+      }
+
+.year-specific2022, .year-specific2021{
+  -webkit-text-fill-color: rgb(185, 94, 4);    
+  font-weight: 700;
+  color:rgb(185, 94, 4);
+  
+}
+
+.generic{
+ color:rgb(52, 109, 219);
+  font-weight: 700;
+
+}
+
+.acoolyellow{
+  color:#FFD54F;
+}
+
+.TR, .tr-related, .tr-up, .tr-down, .testpatch, .livepatch, .tr-tease, .tr-tease2022{
+  -webkit-text-fill-color: rgb(115, 92, 255);;     
+  font-weight: 700;
+  color: rgb(115, 92, 255);
+}
+
+
+/* SCHOOLS */
+
+.balance{
+  color: rgb(128,0,0)
+
+}
+
+.fire{
+  color:orange;
+}
+
+.ice{
+  color:cyan;
+}
+
+.life{
+  color:green;
+}
+
+.myth{
+  color: yellow;
+}
+
+.storm{
+  color: purple;
+}
+
+.monsopace{
+  font-family: monospace;
+}
+.red{
+  color: red;
+}
+
+.blue{
+  color: blue;
+}
+
+.orange{
+  color: orange;
+}
+
+.cyan{
+  color: cyan
+}
+   
+      .caption-nov4{
+        justify-content: center;
+        border: 5px solid black;
+          }
+
+          .entry{
+            font-size: 18px;
+            padding-top: 8px;
+            padding-bottom: 8px;       
+          }
+
+
+          .description{
+           color: rgb(136, 153, 168);
+           font-weight: 400;
+          }
+
+
+          .released {
+            background-color:rgb(225,243,240);
+            color: rgb(24 137 115, 0.4);
+            margin-bottom: 10px;
+            border: 3px solid   rgb(225,243,240);
+            ;
+        }
+
+        .events li{
+            list-style: none;
+            padding: 0;
+          padding-bottom: 1.5rem;
+          border-left: 1px solid #abaaed;
+          position: relative;
+          padding-left: 20px;
+          font-size: 17px;
+          margin-left: -30px;
+          top:10px;
+        }
+
+        .events li:before:first-child{
+            border: 1px solid green;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            left: -8px;
+            top: 10px;
+  
+
+        }
+        .events li:last-child{
+            border: 0px;
+            padding-bottom: 0;
+            top: 0px;
+          }
+        
+
+      .events li:before{
+          content: '';
+          width: 15px;
+          height: 15px;
+          background: white;
+          border: 1px solid #4e5ed3;
+          border-radius: 50%;
+          position: absolute;
+          left: -8px;
+          top: 10px;
+        }
+      
+
+        .hide{
+          opacity: 0;
+          transition: all 0.5s ease 2s;
+          max-height: 0;
+          overflow: hidden;
+        }
+          
+        .img01:hover + .hide {
+          opacity: 1;
+          height: fit-content;
+          transition: all 0.5s ease 2s;
+          opacity: 1;
+          max-height: 6969px;
+          width: fit-content;
+          border-radius: 6px;
+
+        }
+
+
+      
+     .uwu-burn-my-eyes-daddy{
+      color: red;
+     }
+
+        .entryuc{
+          font-size: 19px;
+        }
+          .orangelink a:link {
+             color: rgb(185, 94, 4);
+          }
+
+          .images img{
+            padding: 2px;
+          }
+
+          a:link {
+            color:inherit;
+         }
+
+         .greenlink a:link {
+          color: rgb(0, 136, 71);
+        }
+
+
+      
+          .bluelink a:link{
+            color:rgb(52, 109, 219)
+          }
+
+          .register2 a:link {color: rgb(122, 6, 239);}
+
+
+          .gbdarkorange{
+            color: rgb(185, 94, 4);
+          }
+
+          .gdarkpurple{
+            color: rgb(115, 92, 255);
+
+          }
+
+          .bold{
+            font-weight: 700;
+          }
+
+          .gbgreen{
+            color: rgb(0, 136, 71);
+          }
+          
+          .gbyellow{
+            color:rgb(255, 209, 57)
+          }
+
+          .burstbubble{
+            font-family: "Burst My Bubble";
+            font-size: 30px;
+          }
+
+          .lato{
+            font-family: "Lato";
+          }
+          
+          .gbblue{
+            color: rgb(52, 109, 219)
+          }
+
+          .gbbrown{
+            color: rgb(185, 94, 4)
+          }
+
+          .monospace{
+            font: monospace;
+          }
+.cards-nov4{
+    display: flex;
+    justify-content: center;
+}
+.sample {
+    color: #1956AF;
+    border-radius: 10px;
+    background-color: rgba(188, 170, 170, 0.385);
+    border: 1px solid #1956AF;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.falltest {
+  border-radius: 0px;
+  background-color:#f5a22e3d;
+  border: 5px dashed #f5a22e3d;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.redwarning {
+  border-radius: 2px;
+  background-color:#f52e2e3d;
+  border: 5px dashed #f52e2e3d;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.warning {
+  border-radius: 0px;
+  background-color:#f5a22e3d;
+  border: 5px dashed #f5a22e3d;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.freecrowns {
+  border-radius: 0px;
+  background-color:#2ef5633d;
+  border: 5px dashed #2ef5633d;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.live {
+  border: 6px dashed red;
+  margin-bottom: 10px;
+  /* background-image: linear-gradient(45deg, #b76acf 25%, #465298 25%, #465298 50%, #b76acf 50%, #b76acf 75%, #465298 75%, #465298 100%); */
+  background-size: 40.00px 40.00px;
+}
+
+.images-card {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.image {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+/* NE */
+
+ .img-wrapper{
+    max-height: 839.844px;
+    overflow: hidden;
+}
+
+.img-wrapper2{
+  max-height: 839.844px;
+  overflow: hidden;
+}
+
+.img-wrapper img{
+box-shadow: 4px 6px 15px 5px #000000;
+transform: scale(1.15); 
+top: -80px;
+position: absolute;
+transform: scale3d(1.128, 1.128, 1.128);
+clip-path: inset(0 0 15% 0);
+}
+
