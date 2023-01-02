@@ -314,6 +314,7 @@
           position: absolute;
           top: 345px;
           font-size: 15px;
+          opacity: 0.5;
           font-weight: 700;
         }
 
