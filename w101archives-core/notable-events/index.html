@@ -298,11 +298,40 @@
     <div class="flex items-center shrink-0">Published&nbsp;<span>2022-11-06</span></div>
 </div>
 
+
+
 <div class="img-wrapper">
     <img style="clip-path: inset(0 0 15% 0);" draggable="false" src="https://w101archives.github.io/w101archives/images/splash/netest2.png" />
 </div>
 <div class="clear-space" style="margin-top: 4.5rem"> 
+
+    
+    <div id="fontsize"><span id="fs" class="gdarkpurple">19px.</span>
+        <input type="range" id="text-size" min="15" max="30"></div>
+        
+        
+            <script>
+                 //TODO: Migrate to a central js file
+           
+           window.onload = function(){
+             var scrollie = document.getElementById("text-size");
+            scrollie.value = 19;
+                   scrollie.oninput =  function(){
+              document.getElementById("fs").innerHTML = scrollie.value + "px.";
+                      var entries = document.getElementsByClassName("entry");
+                      for(i = 0; i < entries.length; i++){
+                     entries[i].style.fontSize = scrollie.value + "px";
+                      }
+              }
+           }
+                    
+             </script>
+
 <doc-anchor-target id="welcome" class="break-words">
+
+    
+
+
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#welcome">#</doc-anchor-trigger>
         <span>Welcome</span>
@@ -398,7 +427,12 @@
 </div>
 </doc-tab>
 </doc-tabs>
+
+
+
+
 <doc-anchor-target id="2023-wallaru">
+
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#2023-wallaru">#</doc-anchor-trigger>
         <span><h1> 2023 (Wallaru) </h1></span>
@@ -416,8 +450,12 @@
                 </g></g>
             </svg>
         </div>
+
+   
         <div class="pr-5 ml-3 w-full">
 <doc-anchor-target id="year-overview---2023">
+
+    
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#year-overview---2023">#</doc-anchor-trigger>
         <span><strong>Year Overview - 2023</strong></span>
@@ -1058,7 +1096,7 @@ The Novus Roundtable is <a href="https://twitter.com/Wizard101/status/1598086220
 </ul>
 </doc-panel>
 <p><figure class="content-center">
-    <img src="/images//ne/novus-2022/nov/november21-patchnotes-tr.jpg" alt="" />
+    <img src="../../images//ne/novus-2022/nov/november21-patchnotes-tr.jpg" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -1201,7 +1239,7 @@ congratulations! You’ll win 62,500 Crowns!</code></pre>
 <div class="entry roundtable_announcement">
 <p><strong>Thu, November 10th 2022 (i):</strong> <span class="generic">[Roundtable]</span> <span class="year-specific2022">[DualSchoolRoundtable]</span> A dual school roundtable is <a href="https://twitter.com/Wizard101/status/1590845484259999745">announced</a> with Goomay on <span style="color: turquoise"> November 15th at 5pm CT. </span>  Eh, that&#x27;s it. Not much more to say!</p>
 <p><figure class="content-center">
-    <img src="/images//ne//novus-2022//nov/november10th-dualschoolrt-announcement.jpg" alt="Fun fact: They actually messed up the tweet, saying that &quot;The stream will be on Wednesday, November 15 at 5pm CT&quot; - the 15th is not a Wednesday!" />
+    <img src="../../images//ne//novus-2022//nov/november10th-dualschoolrt-announcement.jpg" alt="Fun fact: They actually messed up the tweet, saying that &quot;The stream will be on Wednesday, November 15 at 5pm CT&quot; - the 15th is not a Wednesday!" />
     <figcaption class="caption">Fun fact: They actually messed up the tweet, saying that &quot;The stream will be on Wednesday, November 15 at 5pm CT&quot; - the 15th is not a Wednesday!</figcaption>
 </figure>
 </p>

@@ -11,7 +11,7 @@
       .docs-markdown table.compact{
         font-size: 19px !important;
       }
-      
+
       .pink{
         color:pink;
       }
@@ -299,9 +299,35 @@
             color: rgb(185, 94, 4)
           }
 
-          .monospace{
-            font: monospace;
-          }
+          /*Notable Events Font Control */
+
+          #fontsize{
+            position:sticky;
+            transform:rotate(90deg);
+            float: left;
+            display: block;
+            top: 100px;
+            margin-left: -60px;
+        }
+
+        #fs{
+          position: relative;
+          top: -2px;
+          font-size: 15px;
+        }
+
+        
+        #text-size{
+          text-align: center;
+          opacity: 0.25;
+          display: inline-block;
+          position: fixed;
+          width: 2000%;
+          max-width: 2000%;
+        }
+        .monospace{
+          font-family: monospace;
+        }
 .cards-nov4{
     display: flex;
     justify-content: center;
