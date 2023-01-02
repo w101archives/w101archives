@@ -307,13 +307,14 @@
             float: left;
             display: block;
             top: 100px;
-            margin-left: -60px;
+            margin-left: -40px;
         }
 
         #fs{
-          position: relative;
-          top: -2px;
+          position: absolute;
+          top: 345px;
           font-size: 15px;
+          font-weight: 700;
         }
 
         
@@ -321,9 +322,12 @@
           text-align: center;
           opacity: 0.25;
           display: inline-block;
-          position: fixed;
-          width: 2000%;
-          max-width: 2000%;
+          transform:rotateZ(90deg);
+          appearance: slider-vertical;
+          width: 8px;
+          height: 750px;
+          padding: 0 5px;
+      
         }
         .monospace{
           font-family: monospace;
