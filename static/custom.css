@@ -1,95 +1,122 @@
+/* Components functionality */
+
 .card {
     box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.1);
     width: fit-content;
-     float: left;
-      margin-left: 20px;
-      height: fit-content;
-      overflow-y: scroll;
-      border: 1px white solid;
+    float: left;
+    margin-left: 20px;
+    height: fit-content;
+    overflow-y: scroll;
+    border: 1px white solid;
       }
 
       .docs-markdown table.compact{
         font-size: 19px !important;
       }
-
-      .pink{
-        color:pink;
-      }
-
-      .sales{
-        color:rgb(52, 109, 219);
-        background-color: rgb(218, 212, 255);
-      }
-
-      .crowns{
-        color: green;
-      }
-
-      .coolcolour{
-        color:#FFD54F
-      }
-    
-      .gameplay{
-        color:green
-      }
-      .card-container {
+	  
+.card-container {
         padding: 2px 16px;
       } 
+	  
+	  
+	  
+/* Tag Colours */
 
-      .customhr{ 
-        margin-top: 2.5rem      
+ .sales{
+        color:rgb(52, 109, 219);
+        background-color: rgb(218, 212, 255);
+        font-weight: 700;
       }
-
-      .unused{
-        border-top: 2px solid black;
-
+	  
+      .majorbug{
+        color:orange;
       }
-
-      .kilive{
-        width: fit-content !important;
-        height: fit-content !important;
-        inline-size: 1000px !important;
-      }      
-      
-      .small{
-        font-size: 8px;
-      }
-
-     .language-none  {
-        font-family: monospace  !important;
-        font-size: 18px !important;
-        color: white !important;
-        overflow: hidden !important;
-      }
-
-
-
-      .importants{
-        color: blue;
-      }
-
-.year-specific2022, .year-specific2021{
-  -webkit-text-fill-color: rgb(185, 94, 4);    
-  font-weight: 700;
-  color:rgb(185, 94, 4);
-  
-}
-
+	  
 .generic{
  color:rgb(52, 109, 219);
   font-weight: 700;
 
 }
 
-.acoolyellow{
-  color:#FFD54F;
+.year-specific2023, .year-specific2022, .year-specific2021{
+  -webkit-text-fill-color: rgb(185, 94, 4);    
+  font-weight: 700;
+  color:rgb(185, 94, 4);
+  
 }
 
-.TR, .tr-related, .tr-up, .tr-down, .testpatch, .livepatch, .tr-tease, .tr-tease2022{
+    
+      .gameplay{
+        color:green
+      }
+	  
+	  .TR, .tr-related, .tr-up, .tr-down, .testpatch, .livepatch, .tr-tease, .tr-tease2022{
   -webkit-text-fill-color: rgb(115, 92, 255);;     
   font-weight: 700;
   color: rgb(115, 92, 255);
 }
+
+
+
+/* Other colours */
+
+
+.higlighting{
+        color: blue;
+}
+
+
+.pink{
+color:pink;
+}
+
+.alternateyellow{
+  color:#FFD54F;
+}
+
+ .crowns{
+        color: green;
+      }
+	  
+	  .red{
+  color: red;
+}
+
+.blue{
+  color: blue;
+}
+
+.shadow{
+  color: #383440
+}
+
+.cyan{
+  color: cyan
+}
+
+
+/* Notable Events - Functionality  */
+
+.customhr{ 
+        margin-top: 2.5rem      
+      }
+
+
+.kilive{
+        width: fit-content !important;
+        height: fit-content !important;
+        inline-size: 1000px !important;
+      }      
+      
+
+
+.language-none  {
+font-family: monospace  !important;
+font-size: 18px !important;
+color: white !important;
+overflow: hidden !important;
+      }
+
 
 
 /* SCHOOLS */
@@ -99,6 +126,9 @@
 
 }
 
+.death{
+  color: rgb(0, 0, 0);
+}
 .fire{
   color:orange;
 }
@@ -119,36 +149,8 @@
   color: purple;
 }
 
-.monsopace{
-  font-family: monospace;
-}
-.red{
-  color: red;
-}
 
-.blue{
-  color: blue;
-}
-
-.orange{
-  color: orange;
-}
-
-.cyan{
-  color: cyan
-}
-   
-      .caption-nov4{
-        justify-content: center;
-        border: 5px solid black;
-          }
-
-          .entry{
-            font-size: 18px;
-            padding-top: 8px;
-            padding-bottom: 8px;       
-          }
-
+/* Upcoming Content  - Functionality (src/timeline and released) */
 
           .description{
            color: rgb(136, 153, 168);
@@ -158,10 +160,12 @@
 
           .released {
             background-color:rgb(225,243,240);
-            color: rgb(24 137 115, 0.4);
+            color: rgb(0, 0, 0) !important;
             margin-bottom: 10px;
-            border: 3px solid   rgb(225,243,240);
-            ;
+            border-width: 4px;
+            border-style: solid;            
+            border-image:  linear-gradient(#5E35CB, #8ED0AE) 30;
+            background-size: 26.57px 26.57px;
         }
 
         .events li{
@@ -228,59 +232,53 @@
         }
 
 
-      
-     .uwu-burn-my-eyes-daddy{
-      color: red;
-     }
-
-        .entryuc{
-          font-size: 19px;
-        }
-          .orangelink a:link {
-             color: rgb(185, 94, 4);
-          }
-
-          .images img{
-            padding: 2px;
-          }
-
-          a:link {
-            color:inherit;
-         }
-
+          /* Coloured links */ 
          .greenlink a:link {
-          color: rgb(0, 136, 71);
+          color: rgb(0, 136, 71) !important;
         }
 
-
-      
-          .bluelink a:link{
-            color:rgb(52, 109, 219)
+         .bluelink a:link{
+            color:rgb(52, 109, 219) !important;
           }
 
-          .register2 a:link {color: rgb(122, 6, 239);}
+          .purplelink a:link {
+            color: rgb(122, 6, 239) !important;
+          }
+		  
+		  
+          .orangelink a:link {
+             color: rgb(185, 94, 4) !important
+          }
 
 
-          .gbdarkorange{
+          /* GB Colour Options */
+
+          .gborange{
             color: rgb(185, 94, 4);
           }
 
-          .gdarkpurple{
+          .gbpurple{
             color: rgb(115, 92, 255);
-
           }
-
-          .bold{
-            font-weight: 700;
-          }
-
+          
           .gbgreen{
             color: rgb(0, 136, 71);
           }
-          
+
           .gbyellow{
             color:rgb(255, 209, 57)
           }
+
+           
+          .gbblue{
+            color: rgb(52, 109, 219)
+          }
+
+          .gbbrown{
+            color: rgb(185, 94, 4)
+          }
+
+          /*Fonts */ 
 
           .burstbubble{
             font-family: "Burst My Bubble";
@@ -290,71 +288,102 @@
           .lato{
             font-family: "Lato";
           }
+
+          /* Font Options */
           
-          .gbblue{
-            color: rgb(52, 109, 219)
+          .bold{
+            font-weight: 700;
           }
-
-          .gbbrown{
-            color: rgb(185, 94, 4)
-          }
-
-          /*Notable Events Font Control */
-
-          #fontsize{
-            position:sticky;
-            transform:rotate(90deg);
-            float: left;
-            display: block;
-            top: 100px;
-            margin-left: -40px;
+		  
+        .entryuc{
+          font-size: 19px;
         }
 
-        #fs{
-          position: absolute;
-          top: 345px;
-          font-size: 15px;
-          opacity: 0.5;
-          font-weight: 700;
-        }
-
-        
-        #text-size{
+        .center{
           text-align: center;
-          opacity: 0.25;
-          display: inline-block;
-          transform:rotateZ(90deg);
-          appearance: slider-vertical;
-          width: 8px;
-          height: 750px;
-          padding: 0 5px;
-      
         }
-        .monospace{
-          font-family: monospace;
-        }
+
+      .twentytwo{
+        font-size: 21px;
+      }
+       
+         
+
+ /*Notable Events Font Control */
+
+ #fontsize{
+  position:sticky;
+  transform:rotate(90deg);
+  float: left;
+  display: block;
+  top: 100px;
+  margin-left: -60px;
+}
+
+#fs{
+position: relative;
+top: -2px;
+font-size: 15px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+#text-size{ /*Text font control NE*/
+text-align: center;
+opacity: 0.25;
+display: inline-block;
+position: fixed;
+width: 2000%;
+max-width: 2000%;
+}          
+
+       
+/* Notable Events Components */ 
 .cards-nov4{
     display: flex;
     justify-content: center;
 }
+
 .sample {
-    color: #1956AF;
-    border-radius: 10px;
-    background-color: rgba(188, 170, 170, 0.385);
-    border: 1px solid #1956AF;
-    padding-top: 20px;
-    margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgba(188, 170, 170, 0.12);
+  border: 1px solid #1956AF;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
 
-.falltest {
+.caption-nov4{
+        justify-content: center;
+        border: 5px solid black;
+          }
+
+          .entry{
+            font-size: 18px;
+            padding-top: 16px;
+            padding-bottom: 16px;       
+          }
+
+
+          .images img{
+            padding: 2px;
+          }
+
+      
+
+/* User information alerts */
+
+.warning, .important {
   border-radius: 0px;
-  background-color:#f5a22e3d;
+  background-color:rgba(245, 162, 46, 0.239);
   border: 5px dashed #f5a22e3d;
   padding-top: 20px;
   margin-bottom: 20px;
 }
 
-.redwarning {
+
+.critical {
   border-radius: 2px;
   background-color:#f52e2e3d;
   border: 5px dashed #f52e2e3d;
@@ -363,21 +392,18 @@
   margin-bottom: 20px;
 }
 
-
-.warning {
-  border-radius: 0px;
-  background-color:#f5a22e3d;
-  border: 5px dashed #f5a22e3d;
-  text-align: center;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-
+/* User information - misc */
 .freecrowns {
-  border-radius: 0px;
+  border-radius: 2px;
   background-color:#2ef5633d;
-  border: 5px dashed #2ef5633d;
+  border: 5px dashed #2ef563ec;
   padding-top: 20px;
+
+  /* Doesn't work with dark mode rip 
+  background-image: linear-gradient(45deg, #98cd8d0b 25%, #ffffff 25%, #ffffff 50%,  #98cd8d0b 50%,  #98cd8d0b 75%, #ffffff 75%, #ffffff 100%)  !important;
+background-size: 56.57px 56.57px;
+*/
+
   margin-bottom: 20px;
 }
 
@@ -393,14 +419,15 @@
   display: flex;
 }
 
-/* Create three equal columns that sits next to each other */
+
+/* NE Multi-image functionality */
 .image {
   flex: 33.33%;
   padding: 5px;
 }
 
 
-/* NE */
+/* Splash art functionality - website wide */
 
  .img-wrapper{
     max-height: 839.844px;
