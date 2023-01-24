@@ -370,7 +370,8 @@ max-width: 2000%;
 
           .images img{
             padding: 2px;
-            width: 200px;
+            width: 180px;
+            justify-content: center;
           }
 
       
