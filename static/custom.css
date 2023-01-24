@@ -370,6 +370,7 @@ max-width: 2000%;
 
           .images img{
             padding: 2px;
+            width: 200px;
           }
 
       
@@ -446,7 +447,8 @@ box-shadow: 4px 6px 15px 5px #000000;
 transform: scale(1.15); 
 top: -80px;
 position: absolute;
-transform: scale3d(1.128, 1.128, 1.128);
+transform: scale3d(1.25, 1.25, 1.25);
 clip-path: inset(0 0 15% 0);
+left: 64px;
 }
 
