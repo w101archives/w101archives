@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/w101archives">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.727891311865">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.728504063379">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -22,22 +22,22 @@
     <meta property="og:url" content="https://w101archives.github.io/w101archives/w101archives-core/notable-events/">
     <meta property="og:title" content="Notable Events | Wizard101 Archives">
     <meta property="og:description" content="Welcome to Notable Events, a log of various events/news within the Wizard101 and KI community, with the purpose of making events easy to refer to in...">
-    <meta property="og:image" content="https://w101archives.github.io/w101archives/images/ne/wallaru-2023/jan/jan18-qol23-w101eu.png">
+    <meta property="og:image" content="https://pbs.twimg.com/media/FnglJaqWIAwFtAn?format=jpg&name=4096x4096">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://w101archives.github.io/w101archives/w101archives-core/notable-events/">
     <meta property="twitter:title" content="Notable Events | Wizard101 Archives">
     <meta property="twitter:description" content="Welcome to Notable Events, a log of various events/news within the Wizard101 and KI community, with the purpose of making events easy to refer to in...">
-    <meta property="twitter:image" content="https://w101archives.github.io/w101archives/images/ne/wallaru-2023/jan/jan18-qol23-w101eu.png">
+    <meta property="twitter:image" content="https://pbs.twimg.com/media/FnglJaqWIAwFtAn?format=jpg&name=4096x4096">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/w101archives/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.4.0.727891311865" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.728504063379" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.727891311865" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.728504063379" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.727891311865" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.728504063379" data-turbo-eval="false" defer></script>
 
     <link href="/w101archives/static/custom.css" rel="stylesheet" />
 
@@ -84,7 +84,7 @@
                                             <path fill-rule="evenodd" d="M7.5 7.25C7.5 4.58 9.422 2.5 12 2.5c2.079 0 3.71 1.34 4.282 3.242a.75.75 0 101.436-.432C16.971 2.825 14.792 1 12 1 8.503 1 6 3.845 6 7.25V9h-.5A2.5 2.5 0 003 11.5v8A2.5 2.5 0 005.5 22h13a2.5 2.5 0 002.5-2.5v-8A2.5 2.5 0 0018.5 9h-11V7.25zm-3 4.25a1 1 0 011-1h13a1 1 0 011 1v8a1 1 0 01-1 1h-13a1 1 0 01-1-1v-8z"/>
                                         </g>
                                     </svg>
-                                    <span>v3.0 (01/24)</span>
+                                    <span>v3.0 (01/31)</span>
                                 </a>
                             </li>
                             <li class="mr-6">
@@ -222,7 +222,7 @@
                                                     <path fill-rule="evenodd" d="M7.5 7.25C7.5 4.58 9.422 2.5 12 2.5c2.079 0 3.71 1.34 4.282 3.242a.75.75 0 101.436-.432C16.971 2.825 14.792 1 12 1 8.503 1 6 3.845 6 7.25V9h-.5A2.5 2.5 0 003 11.5v8A2.5 2.5 0 005.5 22h13a2.5 2.5 0 002.5-2.5v-8A2.5 2.5 0 0018.5 9h-11V7.25zm-3 4.25a1 1 0 011-1h13a1 1 0 011 1v8a1 1 0 01-1 1h-13a1 1 0 01-1-1v-8z"/>
                                                 </g>
                                             </svg>
-                                            <span>v3.0 (01/24)</span>
+                                            <span>v3.0 (01/31)</span>
                                         </a>
                                     </li>
                                     <li class="mr-6">
@@ -419,6 +419,21 @@
 </div>
 </doc-tab>
 </doc-tabs>
+<script>
+         //TODO: Migrate to a central js file
+   window.onload = function(){
+ var scrollie = document.getElementById("text-size");
+scrollie.value = 19;
+                   scrollie.oninput =  function(){
+              document.getElementById("fs").innerHTML = scrollie.value + "px.";
+                      var entries = document.getElementsByClassName("entry");
+                      for(i = 0; i < entries.length; i++){
+                     entries[i].style.fontSize = scrollie.value + "px";
+                      }
+              }
+   }
+                    
+ </script>
 <doc-anchor-target id="2023-wallaru">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#2023-wallaru">#</doc-anchor-trigger>
@@ -429,22 +444,7 @@
         <input type="range" id="text-size" min="15" max="30"></div>
         
         
-   <script>
-         //TODO: Migrate to a central js file
-           
-<p>window.onload = function(){
-var scrollie = document.getElementById(&quot;text-size&quot;);
-scrollie.value = 19;
-scrollie.oninput =  function(){
-document.getElementById(&quot;fs&quot;).innerHTML = scrollie.value + &quot;px.&quot;;
-var entries = document.getElementsByClassName(&quot;entry&quot;);
-for(i = 0; i &lt; entries.length; i++){
-entries[i].style.fontSize = scrollie.value + &quot;px&quot;;
-}
-}
-}</p>
- </script>
-             
+   
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -525,6 +525,111 @@ entries[i].style.fontSize = scrollie.value + &quot;px&quot;;
         <span>January 2023</span>
     </h2>
 </doc-anchor-target>
+<span class="entry jan26 kilive">
+<div class="freecrowns"><doc-anchor-target id="-----jan-26-ki-live-s1-">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#-----jan-26-ki-live-s1-">#</doc-anchor-trigger>
+        <span><h2 style="text-align: center; text-align:center; font-size:60px;">  <span style="color:green"> <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 00-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 00-1.06 1.06l3 3a.75.75 0 001.06 0l6.5-6.5z"/><path fill-rule="evenodd" d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zM2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"/></g></g></svg> </span> Jan 26: KI Live [S1] </h2></span>
+    </h3>
+</doc-anchor-target>
+</div>
+<p><strong>Thursday, January 26th 2022 (ii):</strong> <span class="generic"> [KILive] </span> The first <a href="https://www.youtube.com/watch?v=Ofxk4zla_xI">KI Live of 2023</a> takes place! As expected this early into the year, there&#x27;s not much.  <span style="color: grey"> However, we did get a future content hint -  </span> <span class="gborange"> &quot;I hope some of you have a passion for fashion.&quot; </span> Summary is below!</p>
+<blockquote>
+<p>&quot;Working on unrelated stuff, in the R&amp;D + Discovery stage and exploring other initiaitves.&quot;</p>
+</blockquote>
+<ul>
+<li><span class="generic"> [Community] </span> <span class="year-specific2023"> [SpiralShowdown2023] </span> The spiral showdown has progressed, with the <a href="http://twitter.com/Wizard101/status/1618748865586565120">left bracket eliminations complete.</a> It&#x27;s Malistaire&#x27;s vs Alhazred in the right bracket next!</li>
+</ul>
+<blockquote>
+<h1 style="font-family: 'Helvetica-Light'; color: #8588f4; font-size: 40px; font-weight:400"> KingsIsle Live (January 26th, 2023) </h1>
+<hr>
+<p>TL;DR:</p>
+<ul>
+<li><p><span class="gbdarkorange bold">Sinbad Part 2 expansion for Pirate101 was basically confirmed </span>, with Hawkules heavily implying that he is voice-acting Sinbad in this expansion</p>
+</li>
+<li><p><span class="gbgreen">They are working on some background stuff, It&#x27;s in the R&amp;D + Discovery stage. While supporting the games, they are dipping their toes into other initiatives. Only other comment was that they may be able to talk about it later this year. </span></p>
+</li>
+</ul>
+<p>A hint about something coming up &#x27;sooner than later&#x27; is &quot;I hope some of you have a passion for fashion.&quot;</p>
+<h2> State of the Games </h2>
+<hr>
+<div class="cards-nov4">
+<div class="card">
+<h2> Wizard101
+<div class="card-card-container">
+   <h4>North America </h4>
+<ul>
+<li>   <h4><span style="font-weight:400">📁 Working on things for the Spring, Summer and even Fall updates! A hint about something coming up 'sooner than later' is </span> <span class="gbpurple" style="font-weight:400">I hope some of you have a passion for fashion."</span>  </b> </h4> 
+</li>
+ <li> <h4><span style="font-weight:400">📁 Small change in update direction, they are hoping to fit smaller bug-fix updates in once a month. In light of that, a smaller update is coming soon, with some significant gear changes!</span> </h4> 
+</li>
+<h4>Europe </h4>
+<li>   <h4><span style="font-weight:400">📁 Quality of life update! Now current to April 2021 (AOE Speedup, 64 bit, King Borr/Marshfellow). <br><br>
+<p>As of taping, they are missing one piece for the currency system launch! Soon. </span>  </b> </h4></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="cards-nov4">
+<div class="card">
+<h2> Pirate101
+<div class="cards-card-container">
+<ul>
+<li>   <h4><span style="font-weight:400">📁 Hard at work on Pirate101's first update of the year, coming after Wizard101's. Looking at "early game experience" - <br> <br>expecting to make changes to the early game - i.e difficulty & curve adjustments, and “maybe bringing cooler things in the game earlier.”
+</li>
+</div>
+</div>
+</div>
+</div>
+<div class="clear-space" style="margin-top: 2.5rem"> 
+<doc-anchor-target id="news">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#news">#</doc-anchor-trigger>
+        <span>News</span>
+    </h1>
+</doc-anchor-target>
+<h2>Section 1 - Marketing </h2>
+<hr>
+• Metrics for the Novus Marketing are good. Efforts such as a micro site & bundles, and even some user acquisition, have paid off - with <span class="gbblue bold"> results being better than some expected. </span> <br> <br>
+<p>• Makeship partnership continues, and they have planned all 2023 Releases.</p>
+<p>• Hard at work on Steam P101 + P101 Steam Trailer, so stay tuned if you liked the W101 Trailer!</p>
+<p>• Talked about plans to bring the W101 Soundtrack to streaming platforms, <span class="myth"> but they have other plans for the W101 Soundtrack that they want to do first. </span></p>
+<p>•　Always securing new partnerships for user acquisition - work is always being done to get new players in the game, even if we don&#x27;t see these efforts.</p>
+<p>• Wizard101&#x27;s 15th Birthday is coming up this year, a good opportunity &quot;to do some new things that you haven&#x27;t seen before!&quot;</p>
+<h2> Section 2 - Community </h2>
+<hr>
+• One of the initiatives (especially over the next couple of months) is to bring the <span class="gborange"> EU and NA communities closer </span>, such as including Wizard101 EU in State of the Games. <br> <br>
+<p>• One of the main areas is Discord, and following the Pirate101 Discord, there have been rumours of a Wizard101 NA Discord. <strong>There is no news about that, and it is not being planned currently.</strong></p>
+<p>• There is the Wizard101 EU Discord. They are gathering info about the EU Community (such as fansites), before they rearrange the Discord areas. It is the main area for the EU Community, so they will try to support them and fix issues, such as addressing complaints of language support in the server.</p>
+<p>• No ETA for the next Wizard101 EU update, but they are working on it.</p>
+<h2> Section 3 - Design </h2>
+<hr>
+<p>• They don&#x27;t design gameplay to frustrate players <em>(surprise!)</em>, <span class="gborange"> but rather to subvert the way they expect to play, </span> and get them to think more. They want players at the endgame to be prepared for combat other than &quot;Blade Blade AOE&quot;. There is a time and place for that gameplay, and bosses aren&#x27;t it.</p>
+<p>• Lots planned for Guilds, working on &#x27;The Raid&#x27;, and thinking about how this new Raid would contrast with the existing one. They are thinking of expanding/continuing to develop the Raids Island.</p>
+<p>• As for training all spells: continually adding new spells to the game, at a rate that exceeds desire/ability to acquire, but also if they wanted players to train all the spells in-game, they&#x27;d just remove training points rather than flood you with them.</p>
+<p>• No clue why some Beastmoon Pets are unable to be hatched in Kiosk (Soulclops, Fablewing, Harmonic Cyclops), but they&#x27;ll look into it, they shouldn&#x27;t be.</p>
+<p>•　Discussed different things to emphasise dual schooling. Not sure if dual blades are it. The Astral Blades that already exist help to &quot;round out the wheel&quot;.</p>
+<h2> Section 4 - Everything else </h2>
+<hr>
+<p>• Voice chat in the 101 Games? They could either &quot;hire one developer or a thousand voice chat moderators&quot;.</p>
+<p>• There will be more colour-variant pets in the Crown Shop. Working towards expanding the pet options in Pirate, such as new variations, new morphs, and new pets for various events.</p>
+<p>• <span class="fire"> Sinbad Part 2 expansion for Pirate101 was basically confirmed </span>, with Hawkules heavily implying that he is voice-acting Sinbad in this expansion</p>
+<p>• The thought process for the final Novus boss design is as follows (Lore!):</p>
+<blockquote>
+<p><mark> The Manticore envisioned the first world as a utopia where everything was united and perfect - including the people. </mark> He thought that various inhabitants of the Spiral (Unicorns, Dogs, etc) must have been divided the way the worlds did, so the first-worlders must have been all the people &quot;mushed together&quot;.</p>
+<ul>
+<li>Given his madness and evil outlook, when the Manticore tried to manifest &quot;these things&quot; by hijacking    Dasein&#x27;s powers, the things turned out as hideous as Manticore expected. <br> <br></li>
+<li>In terms of design, they looked at a particular John Carpenter movie - when the first concept art       terrified them, they knew they&#x27;d go in that direction!</li>
+</ul>
+</blockquote>
+<doc-panel id="open-me-for-the-image-summary" collapsed>
+    <template #title>Open me for the image summary!</template>
+<p><img src="https://pbs.twimg.com/media/FnglJaqWIAwFtAn?format=jpg&amp;name=4096x4096" alt="" /></p>
+</doc-panel>
+</blockquote>
+</div>
+</span>
+<hr />
 <span class="entry jan18 w101eu-updatelive-apr21">
 <div class="freecrowns"><doc-anchor-target id="-----jan-18-w101eu-update-s3-">
     <h3>

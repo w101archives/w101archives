@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://w101archives.github.io/w101archives/sitemap.xml.gz
+
+# grr robots

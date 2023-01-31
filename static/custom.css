@@ -6,7 +6,6 @@
     float: left;
     margin-left: 20px;
     height: fit-content;
-    overflow-y: scroll;
     border: 1px white solid;
       }
 
@@ -263,6 +262,12 @@ overflow: hidden !important;
             color: rgb(115, 92, 255);
           }
           
+
+          .COOL{
+
+            font-family: 'Helvetica-Light'; color: #8588f4; font-size: 40px; font-weight:400
+          }
+
           .gbgreen{
             color: rgb(0, 136, 71);
           }
@@ -374,6 +379,9 @@ max-width: 2000%;
             justify-content: center;
           }
 
+          .welcomeimg img{
+            padding: 2px;
+          }
       
 
 /* User information alerts */
