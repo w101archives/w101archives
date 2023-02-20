@@ -16,6 +16,10 @@
 .card-container {
         padding: 2px 16px;
       } 
+
+      .custom-image-size{
+        margin: auto; display: block;  justify-content: center; width: 800; height: 800;
+      }
 	  
 	  
 	  
@@ -263,10 +267,19 @@ overflow: hidden !important;
           }
           
 
-          .COOL{
+
+          .helvetica-light{
 
             font-family: 'Helvetica-Light'; color: #8588f4; font-size: 40px; font-weight:400
           }
+
+          @font-face{
+            font-family: 'Helvetica-Light';
+            src: url('/static/HelveticaLt.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
+          
 
           .gbgreen{
             color: rgb(0, 136, 71);
@@ -296,12 +309,74 @@ overflow: hidden !important;
             font-family: "Lato";
           }
 
+          /*Specific Entry Options */
+
+          .month-entry{
+            font-family: 'Lato';
+             color: #4d53ff; 
+             font-size: 60px;
+             -webkit-text-stroke: 2px black;
+             font-weight:900;
+             paint-order: stroke fill;
+             text-align: center;
+            /*background-color: #333; */
+          }
+
+          .grey{
+            color: gray;
+          }
+          .entry-black{
+            background-color: #333333;
+            margin-bottom: 25px;
+            border: black;
+          }
+
+          .entry-grey{
+            background-color: #272727;
+            margin-bottom: 25px;
+            border: black;
+
+          }
+          
+          .time{
+            color: grey;
+            font-size: 10px;
+          }
+
+          .new-week{
+            color: gray;
+            margin-bottom: 100px;
+          }
+
+          .special{
+            background: linear-gradient(to bottom right, #887BE0, #D8355E);-webkit-text-fill-color: transparent; background-clip: text;  -webkit-background-clip: text; font-size:19px;
+          }
+
+          .date{
+            font-weight: 700;
+            color: black;
+            font-size: 20px;
+            text-decoration: underline;
+          }
+
+          .month-seperator{
+            border: 3px solid rgba(51, 51, 51, 0.558);
+            margin-top: 20px;
+            position: relative;
+            top: -25px;
+
+          }
+
+          
           /* Font Options */
           
           .bold{
             font-weight: 700;
           }
 		  
+          .italics{
+            font-style: italic;
+          }
         .entryuc{
           font-size: 19px;
         }
@@ -402,6 +477,18 @@ max-width: 2000%;
   text-align: center;
   padding-top: 20px;
   margin-bottom: 20px;
+}
+
+
+.additional {
+  border-radius: 2px;
+  background-color:#5151513d;
+  border: 5px solid #f52ef53d;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: -15px;
 }
 
 /* User information - misc */
