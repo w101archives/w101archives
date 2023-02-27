@@ -73,6 +73,10 @@
 color:pink;
 }
 
+.darkpink{
+  color: palevioletred
+}
+
 .alternateyellow{
   color:#FFD54F;
 }
@@ -112,6 +116,13 @@ color:pink;
       }      
       
 
+      .monospace{
+        font-family: monospaces;
+      }
+
+      .consolas{
+        font-family: 'Consolas';
+      }
 
 .language-none  {
 font-family: monospace  !important;
@@ -354,9 +365,7 @@ overflow: hidden !important;
 
           .date{
             font-weight: 700;
-            color: black;
-            font-size: 20px;
-            text-decoration: underline;
+            color: rgba(6, 6, 6, 0.501);
           }
 
           .month-seperator{
