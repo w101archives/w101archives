@@ -1,0 +1,75 @@
+/* This file defines a bunch of colours to be used across the webpage. */
+
+:root {
+    --bg-pink: pink;
+    --bg-dp: palevioletred;
+    --bg-red: red;
+    --bg-green: green;
+    --bg-blue: blue;
+    --bg-yellow: #FFD54F;
+}
+  
+
+.yellowe a:link{
+   background-color: #FFD54F;
+
+}
+  
+.pink{
+    color:pink;
+}
+
+.dark-pink{
+    color: palevioletred
+    --
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.orange{
+    color: orange;
+}
+
+.color-sensitive-yellow{
+    color:#FFD54F;
+}
+
+.liveupdate a {
+    color: rgb(0, 136, 71) !important;
+}
+
+
+.testupdate a {
+    color: rgb(122, 6, 239) !important;
+}
+
+
+
+/* Optional additional colours */
+
+.shadow{
+    color: #383440
+}
+
+
+.cyan{
+    color: cyan
+}
+
+.hv-colour{
+    color: #8588f4;
+}
+
+.grey{
+    color: gray;
+}

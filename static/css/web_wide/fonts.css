@@ -1,0 +1,43 @@
+/* This file defines a bunch of fonts to be used across the webpage. Check the *docs* for usage info.
+9th May 2023 2016hrs /static/css/web_wide/fonts.css
+ */
+
+
+.helvetica-light{
+    font-family: 'Helvetica-Light';
+}
+
+.courier{
+    font-family: 'Courier New';
+}
+
+
+
+
+@font-face{
+    font-family: 'Helvetica-Light';
+    src: url('../../fonts/HLR.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Consolas';
+    src: url('../../fonts/Consolas.ttf') format('truetype');
+}
+
+
+.monospace{
+    font-family: monospace;
+}
+
+.consolas{
+    font-family: 'Consolas';
+}
+
+.burst-my-bubble{
+    font-family: "Burst My Bubble";
+}
+
+.lato{
+    font-family: "Lato";
+}
+

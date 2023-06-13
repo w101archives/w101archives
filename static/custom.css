@@ -1,5 +1,7 @@
 /* Components functionality */
 
+/*TODO: W101Archives v3.05 - Part Two: Remove this file. */
+
 .card {
     box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.1);
     width: fit-content;
@@ -22,85 +24,6 @@
       }
 	  
 	  
-	  
-/* Tag Colours */
-
- .sales{
-        color:rgb(52, 109, 219);
-        background-color: rgb(218, 212, 255);
-        font-weight: 700;
-      }
-	  
-      .majorbug{
-        color:orange;
-      }
-	  
-.generic{
- color:rgb(52, 109, 219);
-  font-weight: 700;
-
-}
-
-.year-specific2023, .year-specific2022, .year-specific2021{
-  -webkit-text-fill-color: rgb(185, 94, 4);    
-  font-weight: 700;
-  color:rgb(185, 94, 4);
-  
-}
-
-    
-      .gameplay{
-        color:green
-      }
-	  
-	  .TR, .tr-related, .tr-up, .tr-down, .testpatch, .livepatch, .tr-tease, .tr-tease2022{
-  -webkit-text-fill-color: rgb(115, 92, 255);;     
-  font-weight: 700;
-  color: rgb(115, 92, 255);
-}
-
-
-
-/* Other colours */
-
-
-.higlighting{
-        color: blue;
-}
-
-
-.pink{
-color:pink;
-}
-
-.darkpink{
-  color: palevioletred
-}
-
-.alternateyellow{
-  color:#FFD54F;
-}
-
- .crowns{
-        color: green;
-      }
-	  
-	  .red{
-  color: red;
-}
-
-.blue{
-  color: blue;
-}
-
-.shadow{
-  color: #383440
-}
-
-.cyan{
-  color: cyan
-}
-
 
 /* Notable Events - Functionality  */
 
@@ -108,60 +31,6 @@ color:pink;
         margin-top: 2.5rem      
       }
 
-
-.kilive{
-        width: fit-content !important;
-        height: fit-content !important;
-        inline-size: 1000px !important;
-      }      
-      
-
-      .monospace{
-        font-family: monospaces;
-      }
-
-      .consolas{
-        font-family: 'Consolas';
-      }
-
-.language-none  {
-font-family: monospace  !important;
-font-size: 18px !important;
-color: white !important;
-overflow: hidden !important;
-      }
-
-
-
-/* SCHOOLS */
-
-.balance{
-  color: rgb(128,0,0)
-
-}
-
-.death{
-  color: rgb(0, 0, 0);
-}
-.fire{
-  color:orange;
-}
-
-.ice{
-  color:cyan;
-}
-
-.life{
-  color:green;
-}
-
-.myth{
-  color: yellow;
-}
-
-.storm{
-  color: purple;
-}
 
 
 /* Upcoming Content  - Functionality (src/timeline and released) */
@@ -175,15 +44,14 @@ overflow: hidden !important;
           .released {
             background-color:rgb(225,243,240);
             color: rgb(0, 0, 0) !important;
-            margin-bottom: 10px;
             border-width: 4px;
             border-style: solid;            
             border-image:  linear-gradient(#5E35CB, #8ED0AE) 30;
-            background-size: 26.57px 26.57px;
+            background-size: 10.57px 10.57px;
         }
 
         .events li{
-            list-style: none;
+         list-style: none;
             padding: 0;
           padding-bottom: 1.5rem;
           border-left: 1px solid #abaaed;
@@ -214,6 +82,7 @@ overflow: hidden !important;
           .events li p{
             position: relative;
             top: -4px;
+              margin-bottom: 0px !important;
           }
         
 
@@ -227,9 +96,23 @@ overflow: hidden !important;
           position: absolute;
           left: -8px;
         }
-      
 
-        .hide{
+.fade {
+    animation: opaque ease-in-out 1.5s;
+}
+
+@keyframes opaque {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.hide{
           opacity: 0;
           transition: all 0.5s ease 2s;
           max-height: 0;
@@ -248,107 +131,44 @@ overflow: hidden !important;
         }
 
 
-          /* Coloured links */ 
-         .greenlink a:link {
-          color: rgb(0, 136, 71) !important;
-        }
-
-         .bluelink a:link{
-            color:rgb(52, 109, 219) !important;
-          }
-
-          .purplelink a:link {
-            color: rgb(122, 6, 239) !important;
-          }
-		  
-		  
-          .orangelink a:link {
-             color: rgb(185, 94, 4) !important
-          }
+.body{
+    position: sticky;
+}
 
 
-          /* GB Colour Options */
+.entry{
+    font-size: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 
-          .gborange{
-            color: rgb(185, 94, 4);
-          }
+}
 
-          .gbpurple{
-            color: rgb(115, 92, 255);
-          }
+#show{
+    display: initial;
+}
+
+#hidden{
+    display: none;
+}
+
+          /*Specific Entry Options - REMOVED UFN */
+
           
-
-
-          .helvetica-light{
-
-            font-family: 'Helvetica-Light'; color: #8588f4; font-size: 40px; font-weight:400
-          }
-
-          @font-face{
-            font-family: 'Helvetica-Light';
-            src: url('/static/HelveticaLt.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-            }
-          
-
-          .gbgreen{
-            color: rgb(0, 136, 71);
-          }
-
-          .gbyellow{
-            color:rgb(255, 209, 57)
-          }
-
-           
-          .gbblue{
-            color: rgb(52, 109, 219)
-          }
-
-          .gbbrown{
-            color: rgb(185, 94, 4)
-          }
-
-          /*Fonts */ 
-
-          .burstbubble{
-            font-family: "Burst My Bubble";
-            font-size: 30px;
-          }
-
-          .lato{
-            font-family: "Lato";
-          }
-
-          /*Specific Entry Options */
-
           .month-entry{
             font-family: 'Lato';
              color: #4d53ff; 
              font-size: 60px;
-             -webkit-text-stroke: 2px black;
-             font-weight:900;
+             font-style: italic;
+
+          }
+        /*     -webkit-text-stroke: 2px black;
              paint-order: stroke fill;
              text-align: center;
-            /*background-color: #333; */
-          }
-
-          .grey{
-            color: gray;
-          }
-          .entry-black{
-            background-color: #333333;
-            margin-bottom: 25px;
-            border: black;
-          }
-
-          .entry-grey{
-            background-color: #272727;
-            margin-bottom: 25px;
-            border: black;
-
-          }
+            background-color: #333; 
+            
+          */
           
+ 
           .time{
             color: grey;
             font-size: 10px;
@@ -359,13 +179,82 @@ overflow: hidden !important;
             margin-bottom: 100px;
           }
 
+          .lg{
+            border-image: linear-gradient(to bottom right, #887BE0, #D8355E) 30;
+            border-width: 4px;
+            margin-bottom: 20px;
+            padding-bottom: 0px;
+
+
+          }
           .special{
-            background: linear-gradient(to bottom right, #887BE0, #D8355E);-webkit-text-fill-color: transparent; background-clip: text;  -webkit-background-clip: text; font-size:19px;
+            background: linear-gradient(to bottom right, #887BE0, #D8355E);
+            -webkit-text-fill-color: transparent; 
+            background-clip: text; 
+            -webkit-background-clip: text;
+          }
+
+          .special2{
+            background: linear-gradient(to bottom, #887be057, #d8355e4c);
+            border: 0.5px solid black;
+            color: black;
+          
+          }
+          
+          .pride{
+            background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 100vw;
+        }
+
+            
+        .pride-smol{
+          background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+      }
+        
+
+          .downtime{
+            background-color: rgba(188, 170, 170, 0.12);
+            border-image: linear-gradient(#3c99f65c, #9f0c9d98) 40;
+            border-width: 2px;
+            border-style: solid;
+          }
+
+
+
+
+.downtime-nb{
+            background-color: rgba(188, 170, 170, 0.12);
+            border: 1px solid red;
+            margin-bottom: 20px;
+            padding-bottom: 0px;
+          
+          }
+
+          .downtime-nb-THICC{
+            background-color: rgba(188, 170, 170, 0.12);
+            border: 3px solid red;
+            margin-bottom: 20px;
+            padding-bottom: 0px;
+          
+          }
+
+          .downtime2{
+            background-color: rgba(68, 68, 68, 0.12);
+            border: 1px solid black;
           }
 
           .date{
             font-weight: 700;
-            color: rgba(6, 6, 6, 0.501);
+            
+          /*  color: rgba(6, 6, 6, 0.501); */
+          /* Attribute removed UFN. */
+
           }
 
           .month-seperator{
@@ -379,13 +268,8 @@ overflow: hidden !important;
           
           /* Font Options */
           
-          .bold{
-            font-weight: 700;
-          }
-		  
-          .italics{
-            font-style: italic;
-          }
+       
+	
         .entryuc{
           font-size: 19px;
         }
@@ -394,10 +278,7 @@ overflow: hidden !important;
           text-align: center;
         }
 
-      .twentytwo{
-        font-size: 21px;
-      }
-       
+
          
 
  /*Notable Events Font Control */
@@ -445,17 +326,90 @@ max-width: 2000%;
   margin-bottom: 20px;
 }
 
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.slide {
+  display: none;
+}
+
+.image {
+  width: 300px;
+
+}
+
+
+
+.sample2 {
+  background-color: rgba(188, 170, 170, 0.12);
+  
+  border: 1px solid #1956AF;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  border-top: none;
+}
+
+
+.center-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  height: max-content;
+
+
+}
+
+/*
+/*
+.sample2 {
+ border-style: 2px solid transparent;
+ border-image: linear-gradient(to bottom, rgba(223, 26, 137, 0.52), rgba(31, 198, 195, 0.73)) 25 25 round;
+margin-top: 2px;
+  border-image-slice: 1;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+*/
+
+/* Shamelessly stolen from Bootstrap. Which is also probably shamelessly stolen from somewhere else. #codethieves */
+
+.helpful-info{
+  background-color: #cce5ff;
+  border-radius: 0.25rem;
+  padding: 0.75rem 0.25rem;
+  text-align: center;
+  margin: 0.5em;
+  border: 0.5px #cce5f2;
+
+}
+
+.footnote{
+  font-size: 12px;
+  color: gray;
+  font-style: italic;
+  margin-bottom: 0px !important;
+}
+
+/* Get rid of the margin that Retype forces blegh */
+
+.helpful-info p{
+margin-bottom: 0px !important;
+}
+
+
+
 .caption-nov4{
         justify-content: center;
         border: 5px solid black;
           }
 
-          .entry{
-            font-size: 18px;
-            padding-top: 16px;
-            padding-bottom: 16px;       
-          }
-
+   
 
           .images img{
             padding: 2px;
@@ -463,7 +417,14 @@ max-width: 2000%;
             justify-content: center;
           }
 
-          .welcomeimg img{
+.images-uc img{
+    padding: 2px;
+    width: 500px;
+    justify-content: center;
+}
+
+
+.welcomeimg img{
             padding: 2px;
           }
       
@@ -472,8 +433,89 @@ max-width: 2000%;
 
 .warning, .important {
   border-radius: 0px;
-  background-color:rgba(245, 162, 46, 0.239);
+  background-color:rgba(245, 162, 46, 0.239) !important;
   border: 5px dashed #f5a22e3d;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+#tr-entryg {
+  border-radius: 2px;
+  background-color:#2ef5633d;
+  border: 5px dashed #2ef563ec;
+  padding-top: 30px;
+  position: relative;
+  opacity: 1;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-blend-mode: overlay;
+  z-index: 1;
+
+}
+
+
+#trentry-g::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  background-image:
+  linear-gradient(to bottom, rgba(223, 26, 137, 0.52), rgba(31, 198, 195, 0.73)),
+  url('../static/icons/tr.png');
+  width: 100%;
+  height: 100%;
+  background-size: 45px;
+  transform: rotate(0deg);
+  opacity: 0.2;
+  z-index: 2;
+}
+
+#trentry {
+  border-radius: 2px;
+  background-color:rgba(245, 162, 46, 0.239) !important;
+  border: 5px dashed #f5a22e3d;
+  padding-top: 30px;
+  position: relative;
+  opacity: 1;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-blend-mode: overlay;
+  z-index: 1;
+
+}
+
+.image-e{
+  float: left;
+  width: 33.33%;
+}
+
+#trentry::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  background-image:
+  linear-gradient(to bottom, rgba(223, 26, 137, 0.52), rgba(31, 198, 195, 0.73)),
+  url('../static/icons/tr.png');
+  width: 100%;
+  height: 100%;
+  background-size: 45px;
+  transform: rotate(0deg);
+  opacity: 0.2;
+  z-index: 2;
+}
+
+
+
+.critical-sub {
+  border-radius: 2px;
+  background-color:#f52e2e3d;
+  border: 1px solid #f52e2e3d;
   padding-top: 20px;
   margin-bottom: 20px;
 }
@@ -506,12 +548,6 @@ max-width: 2000%;
   background-color:#2ef5633d;
   border: 5px dashed #2ef563ec;
   padding-top: 20px;
-
-  /* Doesn't work with dark mode rip 
-  background-image: linear-gradient(45deg, #98cd8d0b 25%, #ffffff 25%, #ffffff 50%,  #98cd8d0b 50%,  #98cd8d0b 75%, #ffffff 75%, #ffffff 100%)  !important;
-background-size: 56.57px 56.57px;
-*/
-
   margin-bottom: 20px;
 }
 
@@ -519,12 +555,15 @@ background-size: 56.57px 56.57px;
 .live {
   border: 6px dashed red;
   margin-bottom: 10px;
-  /* background-image: linear-gradient(45deg, #b76acf 25%, #465298 25%, #465298 50%, #b76acf 50%, #b76acf 75%, #465298 75%, #465298 100%); */
   background-size: 40.00px 40.00px;
 }
 
 .images-card {
-  display: flex;
+    display: flex;
+    flex: 1 30%;
+    margin: 1rem;
+    min-height: 220px;
+
 }
 
 
@@ -533,27 +572,3 @@ background-size: 56.57px 56.57px;
   flex: 33.33%;
   padding: 5px;
 }
-
-
-/* Splash art functionality - website wide */
-
- .img-wrapper{
-    max-height: 839.844px;
-    overflow: hidden;
-}
-
-.img-wrapper2{
-  max-height: 839.844px;
-  overflow: hidden;
-}
-
-.img-wrapper img{
-box-shadow: 4px 6px 15px 5px #000000;
-transform: scale(1.15); 
-top: -80px;
-position: absolute;
-transform: scale3d(1.25, 1.25, 1.25);
-clip-path: inset(0 0 15% 0);
-left: 64px;
-}
-

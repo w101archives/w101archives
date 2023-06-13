@@ -1,0 +1,62 @@
+
+/* Use when referring to a school. i.e Text "Fire" should use .fire class */
+
+.fire{
+    color:orange;
+}
+
+.ice{
+    color:rgb(0, 139, 139);
+}
+
+.storm{
+    color: purple;
+}
+
+.death{
+    color: rgb(0, 0, 0);
+}
+
+.life{
+    color:green;
+}
+
+.myth{
+    color: yellow;
+}
+
+.balance{
+    color: rgb(128,0,0)
+}
+
+/* A LINK */
+
+.fire a:link{
+    color:orange;
+}
+
+.ice a:link{
+    color: rgb(4, 219, 219);
+}
+
+.storm a:link{
+    color: purple;
+}
+
+.death a:link{
+    color: rgb(0, 0, 0);
+}
+
+.life a:link{
+    color:green;
+}
+
+.myth a:link{
+    color: yellow;
+}
+
+.balance a:link{
+    color: rgb(128,0,0)
+}
+
+
