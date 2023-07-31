@@ -57,7 +57,6 @@
           border-left: 1px solid #abaaed;
           position: relative;
           padding-left: 20px;
-          font-size: 17px;
           margin-left: -30px;
         }
 
@@ -244,6 +243,17 @@
           
           }
 
+          .bq{
+              --tw-bg-opacity: 1;
+              --tw-text-opacity: 1;
+              background-color: rgb(248 249 252/var(--tw-bg-opacity));
+              border-left-width: 4px;
+              color: rgb(68 78 102/var(--tw-text-opacity));
+              margin-bottom: 1.5rem;
+              padding: 1rem 1rem 1rem 1.25rem;
+
+          }
+
           .downtime2{
             background-color: rgba(68, 68, 68, 0.12);
             border: 1px solid black;
@@ -384,6 +394,7 @@ margin-top: 2px;
   border-radius: 0.25rem;
   padding: 0.75rem 0.25rem;
   text-align: center;
+  color: black;
   margin: 0.5em;
   border: 0.5px #cce5f2;
 
