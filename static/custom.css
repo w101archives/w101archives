@@ -181,7 +181,7 @@
  
           .time{
             color: grey;
-            font-size: 10px;
+            font-size: 15px;
           }
 
           .new-week{
@@ -254,7 +254,17 @@
           
           }
 
-          .bq{
+
+.red-warning{
+    background-color: rgba(255, 0, 0, 0.24);
+    border: 3px double black;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+
+}
+
+
+.bq{
               --tw-bg-opacity: 1;
               --tw-text-opacity: 1;
               background-color: rgb(248 249 252/var(--tw-bg-opacity));
