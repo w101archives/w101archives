@@ -17,8 +17,8 @@
     color: rgb(0, 0, 0);
 }
 
-.life{
-    color:green;
+.life a {
+    color:green !important;
 }
 
 .myth{

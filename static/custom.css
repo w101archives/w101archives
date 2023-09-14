@@ -32,6 +32,12 @@
       }
 
 
+      .highlighting{
+        background-color: #FFD54F;
+
+      }
+
+
 
 /* Upcoming Content  - Functionality (src/timeline and released) */
 
@@ -563,9 +569,8 @@ margin-bottom: 0px !important;
 
 .additional {
   border-radius: 2px;
-  background-color:#5151513d;
+  background-color: rgba(188, 170, 170, 0.12);
   border: 5px solid #f52ef53d;
-  text-align: center;
   padding-top: 20px;
   margin-bottom: 20px;
   position: relative;
