@@ -13,17 +13,27 @@
 
 
 
+/* Not using Google Fonts. */
+
+
+@font-face {
+font-family: 'Roboto';
+    src: url('../../fonts/roboto-regular.ttf');
+}
 
 @font-face{
     font-family: 'Helvetica-Light';
-    src: url('../../fonts/HLR.otf') format('opentype');
+    src: url('../../fonts/hlr.otf') format('opentype');
 }
 
 @font-face{
     font-family: 'Consolas';
-    src: url('../../fonts/Consolas.ttf') format('truetype');
+    src: url('../../fonts/consolas.ttf') format('truetype');
 }
 
+.roboto-light{
+    font-family: "Roboto Light";
+}
 
 .monospace{
     font-family: monospace;

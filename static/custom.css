@@ -2,6 +2,10 @@
 
 /*TODO: W101Archives v3.05 - Part Two: Remove this file. */
 
+body{
+  font-family: 'Roboto' !important;
+}
+
 .card {
     box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.1);
     width: fit-content;
@@ -33,11 +37,22 @@
 
 
       .highlighting{
-        background-color: #FFD54F;
+        background-color: #f1e740;
 
       }
 
+      .highlighting-red{
+        background-color: #ff000074;
 
+      }
+
+      .highlighting-blue{
+        background-color: #4d53ff81;
+      }
+
+:is(.highlighting, .highlighting-red, s.highlighting-blue){
+color: rgb(0,0,0)
+}
 
 /* Upcoming Content  - Functionality (src/timeline and released) */
 
@@ -203,6 +218,17 @@
 
 
           }
+
+.lg2{
+    border-image: linear-gradient(to bottom right, #887BE0, #D8355E) 30;
+    background-color: rgba(188, 170, 170, 0.12);
+
+    border-width: 4px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+
+
+}
           .special{
             background: linear-gradient(to bottom right, #887BE0, #D8355E);
             -webkit-text-fill-color: transparent; 
@@ -315,7 +341,10 @@
           text-align: center;
         }
 
-
+code{
+  margin: 3px;
+  font-weight: bold !important;
+}
          
 
  /*Notable Events Font Control */
@@ -597,13 +626,21 @@ margin-bottom: 0px !important;
     display: flex;
     flex: 1 30%;
     margin: 1rem;
-    min-height: 220px;
+    gap: 20px;
 
 }
 
 
 /* NE Multi-image functionality */
 .image {
-  flex: 33.33%;
   padding: 5px;
+    width: fit-content;
 }
+
+
+p, h1, h2, h3{
+
+  font-family: 'Roboto' !important;
+
+}
+

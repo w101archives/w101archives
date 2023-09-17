@@ -29,10 +29,18 @@
     font-weight: 400;
 }
 
-.fw-bold{
+.fw-bold, .fw-bold code{
     font-weight: 700;
 }
 
 .fw-italic{
     font-style: italic;
+}
+
+.pd-10{
+    padding: 10px;
+}
+
+.m-20{
+    margin: 20px;
 }
