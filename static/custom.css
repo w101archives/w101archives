@@ -638,9 +638,9 @@ margin-bottom: 0px !important;
 }
 
 
-p, h1, h2, h3{
-
-  font-family: 'Roboto' !important;
-
+* {
+    font-family: 'Roboto';
 }
+
+
 
