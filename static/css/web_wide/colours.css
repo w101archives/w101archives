@@ -69,6 +69,14 @@
     color: #383440
 }
 
+.cute-yellow{
+    background:rgba(240, 200, 0, 0.2);
+}
+
+.cute-purple{
+    background:rgba(74, 82, 199, 0.2);
+}
+
 
 .cyan{
     color: cyan

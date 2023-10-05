@@ -2,9 +2,7 @@
 
 /*TODO: W101Archives v3.05 - Part Two: Remove this file. */
 
-body{
-  font-family: 'Roboto' !important;
-}
+
 
 .card {
     box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.1);
@@ -37,7 +35,7 @@ body{
 
 
       .highlighting{
-        background-color: #f1e740;
+        background-color: #f1e740; !important;
 
       }
 
@@ -50,7 +48,13 @@ body{
         background-color: #4d53ff81;
       }
 
-:is(.highlighting, .highlighting-red, s.highlighting-blue){
+
+
+.highlighting-purple{
+    background-color: rgba(157, 77, 255, 0.51);
+}
+
+:is(.highlighting, .highlighting-red, .highlighting-blue, .highlighting-purple){
 color: rgb(0,0,0)
 }
 
@@ -162,6 +166,10 @@ color: rgb(0,0,0)
         }
 
 
+        .major{
+            color: red;
+            font-weight: bold;
+        }
 .body{
     position: sticky;
 }
@@ -277,6 +285,10 @@ color: rgb(0,0,0)
             padding-bottom: 0px;
           
           }
+
+.image-frame{
+    border: 5px solid white;
+}
 
           .downtime-nb-THICC{
             background-color: rgba(188, 170, 170, 0.12);

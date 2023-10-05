@@ -40,7 +40,7 @@ font-family: 'Roboto';
 }
 
 .consolas{
-    font-family: 'Consolas';
+    font-family: 'Consolas'; !important;
 }
 
 .burst-my-bubble{
