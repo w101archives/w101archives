@@ -33,9 +33,13 @@
         margin-top: 2.5rem
       }
 
+.content-center{
+    margin-bottom: 0;
+}
+
 
       .highlighting{
-        background-color: #f1e740; !important;
+        background-color: #FBF719 !important;
 
       }
 
@@ -177,10 +181,25 @@ color: rgb(0,0,0)
 
 .entry{
     font-size: 18px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+    border: 2px dashed transparent;
+    padding: 2px;
+    transition: background-color 2s, border 2s
+}
+
+
+:is(.dark) .entry:hover{
+    transition: background-color 1s, border 1s;
+    padding: 2px;
+    background-color: rgba(68, 68, 68, 0.12);
+    border: 2px dashed rgba(0, 0, 0, 0.58);
+    animation: bgColor 100s infinite linear 10s;
+
+    /* transform: rotate(360deg); */
+
 
 }
+
+
 
 #show{
     display: initial;
@@ -389,7 +408,8 @@ width: 2000%;
 max-width: 2000%;
 }          
 
-       
+
+
 /* Notable Events Components */ 
 .cards-nov4{
     display: flex;
@@ -488,13 +508,12 @@ margin-bottom: 0px !important;
         border: 5px solid black;
           }
 
-   
 
-          .images img{
-            padding: 2px;
-            width: 180px;
-            justify-content: center;
-          }
+.images img{
+    padding: 2px;
+    width: 180px;
+    justify-content: center;
+}
 
 .images-uc img{
     padding: 2px;
@@ -502,12 +521,30 @@ margin-bottom: 0px !important;
     justify-content: center;
 }
 
-
 .welcomeimg img{
             padding: 2px;
           }
-      
 
+
+
+.uc-info-container{
+    width: fit-content;
+    height: fit-content;
+   border-image: linear-gradient(#483cf6, #ffabd6) 30;
+    border-width: 4px;
+    border-style: solid;
+    background: linear-gradient(to bottom right, rgba(136, 123, 224, 0.54), rgba(216, 53, 94, 0.27));
+
+    padding: 10px;
+    display: flex;
+}
+
+.uc-info-image{
+    width: 200px;
+    padding: 2px;
+    text-align: center;
+    margin: 0 auto;
+}
 /* User information alerts */
 
 .warning, .important {
@@ -642,12 +679,92 @@ margin-bottom: 0px !important;
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    float: left;
 
+}
+
+.grid-entry{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+.entry:hover {
+    transition: background-color 1s, border 1s;
+    background-color: rgba(68, 68, 68, 0.12);
+    border: 2px dashed rgba(0, 0, 0, 0.58);
+    padding: 2px;
+  /*  transform: rotate(360deg); */
+    animation: bgColor 100s infinite linear 10s;
+
+
+
+}
+
+/*
+@keyframes finale {
+
+sorry i couldn't do it
+
+ /*
+
+to{
+        transform: skew(30deg, 30deg);
+
+    }
+
+}
+
+
+*/
+
+/* literally copy pasted from so */
+
+@keyframes bgColor {
+    12.5% {
+        border: 2px dashed rgba(255, 0, 0, 0.24);
+    }
+    25% {
+        border: 2px dashed rgba(255, 165, 0, 0.24);
+
+    }
+    37.5% {
+        border: 2px dashed rgba(255, 255, 0, 0.24);
+
+    }
+    50% {
+        border: 2px dashed rgba(127, 255, 0, 0.24);
+
+    }
+    62.5% {
+        border: 2px dashed rgba(0, 255, 255, 0.24);
+
+    }
+    75% {
+        border: 2px dashed rgba(0, 0, 255, 0.24);
+
+    }
+    87.5% {
+        border: 2px dashed rgba(153, 50, 204, 0.24);
+
+    }
+    100% {
+        border: 2px dashed rgba(255, 20, 147, 0.24);
+
+
+    }
+}
 /* NE Multi-image functionality */
 .image {
   padding: 5px;
     width: fit-content;
 }
+
+
+
 
 
 * {
