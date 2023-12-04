@@ -1,0 +1,33 @@
+/* Link indicators as to whether a patch is LIVE REALM or TEST REALM
+8th May 2023 /static/css/notable_events/patch_indicator.css
+ */
+
+.liveupdate a {
+    color: rgb(0, 136, 71) !important;
+}
+
+
+.testupdate a {
+    color: rgb(122, 6, 239) !important;
+}
+
+
+
+.orangelink a {
+    color: rgb(185, 94, 4) !important
+}
+
+.olives a {
+    color: rgb(89, 31, 225) !important;
+    font-size: 10px;
+    font-style: italic;
+    vertical-align: super;
+    font-weight: 300;
+    font-family: 'Lato';
+  }
+  
+
+
+
+  /* TODO: Retire all these classes in favor of 'files-patch' */
+  /* For logging purposes only: tr-tease2022" */

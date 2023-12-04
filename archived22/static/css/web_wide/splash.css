@@ -1,0 +1,22 @@
+/* CORE: Provides splash-art functionality for every page.
+9th May 2023 /static/css/web_wide/splash.css
+ */
+
+
+/*Rewrite to fix bug with zoom. */
+
+.img-wrapper{
+    max-height: 839.844px;
+    overflow: hidden;
+}
+
+
+.img-wrapper img{
+    box-shadow: 4px 6px 15px 5px #000000;
+    top: -80px;
+    position: absolute;
+    transform: scale3d(1.25, 1.25, 1.25);
+    clip-path: inset(0 0 15% 0);
+    left: 64px;
+}
+

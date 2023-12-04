@@ -1,0 +1,28 @@
+/* Colours imported from GitBook
+8th May 2023 /static/css/gitbook_colours.css
+ */
+
+.gbgreen, .gbgreen a{
+    color: rgb(0, 136, 71) !important;
+}
+
+.gitbook-yellow, .gbyellow, .gbyellow a {
+    color:rgb(255, 209, 57) !important
+}
+
+
+.gitbook-blue, .gbblue, .gbblue a{
+    color: rgb(52, 109, 219) !important
+}
+
+.gitbook-brown, .gbbrown, .gbbrown a{
+    color: rgb(185, 94, 4) !important;
+}
+
+.gitbook-purple, .gbpurple, .gdarkpurple, .gbpurple a{
+    color: rgb(115, 92, 255) !important;
+}
+
+.gitbook-orange, .gborange, .gborange a{
+    color: rgb(185, 94, 4) !important;
+}

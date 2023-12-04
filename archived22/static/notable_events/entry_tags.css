@@ -1,0 +1,50 @@
+/* Tag colours, used to indicate a type of event.
+20th May 2023 /static/css/notable_events/entry_tags.css
+ */
+
+.test-realm, .tr-related, .tr-up, .tr-down, .testpatch, .tr-tease{
+    -webkit-text-fill-color: rgb(115, 92, 255);;     
+    font-weight: 700;
+  }
+
+/*TODO: Retire tr-related class */
+
+
+
+.sales-tag{
+    color:rgb(52, 109, 219);
+    background-color: rgb(218, 212, 255);
+    font-weight: 700;
+  }
+  
+.majorbug{
+    color:orange;
+  }
+  
+.generic{
+color:rgb(52, 109, 219);
+font-weight: 700;
+}
+
+/*TODO: Replace year-specificXXXX with a generic year-specific tag */
+
+.year-specific, .year-specific2023, .year-specific2022, .year-specific2021{
+-webkit-text-fill-color: rgb(185, 94, 4);    
+font-weight: 700;
+color:rgb(185, 94, 4);
+
+}
+
+.gameplay{
+    color:green
+  }
+  
+  .test-realm, .tr-related, .test-realm-up, .TR, .testpatch, .livepatch, .tr-tease, .tr-tease2022{
+    -webkit-text-fill-color: rgb(115, 92, 255);;     
+    font-weight: 700;
+  }
+  
+
+
+
+

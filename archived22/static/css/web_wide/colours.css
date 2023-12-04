@@ -1,0 +1,91 @@
+/* This file defines a bunch of colours to be used across the webpage. */
+
+:root {
+    --bg-pink: pink;
+    --bg-dp: palevioletred;
+    --bg-red: red;
+    --bg-green: green;
+    --bg-blue: blue;
+    --bg-yellow: #FFD54F;
+}
+  
+
+.yellowe a:link{
+   background-color: #FFD54F;
+
+}
+
+.special3{
+    background: linear-gradient(to bottom right, #887BE0, #D8355E);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+  
+.pink{
+    color:pink;
+}
+
+.dark-pink{
+    color: palevioletred
+    --
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.orange{
+    color: orange;
+}
+
+.color-sensitive-yellow{
+    color:#FFD54F;
+}
+
+.liveupdate a {
+    color: rgb(0, 136, 71) !important;
+}
+
+
+.testupdate a {
+    color: rgb(122, 6, 239) !important;
+}
+
+
+
+/* Optional additional colours */
+
+.shadow{
+    color: #383440
+}
+
+.cute-yellow{
+    background:rgba(240, 200, 0, 0.2);
+}
+
+.cute-purple{
+    background:rgba(74, 82, 199, 0.2);
+}
+
+
+.cyan{
+    color: cyan
+}
+
+.hv-colour{
+    color: #8588f4;
+}
+
+.grey{
+    color: gray;
+}

@@ -3,23 +3,23 @@
  */
 
 .fs-ten{
- font-size: 10px;
+ font-size: 10px; !important;
 }
 
 .fs-twenty{
-    font-size: 20px;
+    font-size: 20px; !important;
 }
 
 .fs-thirty{
-    font-size: 30px;
+    font-size: 30px; !important;
 }
 
 .fs-fourty{
-    font-size: 40px;
+    font-size: 40px; !important;
 }
 
 .fs-fifty{
-    font-size: 50px;
+    font-size: 50px; !important;
 }
 
 

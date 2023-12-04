@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://w101archives.github.io/archived22/sitemap.xml.gz
