@@ -808,7 +808,7 @@ margin-bottom: 0px !important;
 
 
 :is(.dark) #docs-site-header{
-background-image: url('/w101archives/static/images/BG.png') !important;
+background-image: url('/w101archives/static/images/bg.png') !important;
 background-size:cover;
 position: sticky !important;
     filter: none !important;
