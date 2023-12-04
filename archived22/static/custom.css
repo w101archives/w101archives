@@ -13,10 +13,7 @@
     border: 1px white solid;
       }
 
-      .docs-markdown table.compact{
-        font-size: 19px !important;
-      }
-	  
+
 .card-container {
         padding: 2px 16px;
       } 
@@ -79,7 +76,7 @@ color: rgb(0,0,0)
             background-size: 10.57px 10.57px;
         }
 
-        .events li{
+       .events-list-li{
          list-style: none;
             padding: 0;
           padding-bottom: 1.5rem;
@@ -89,7 +86,8 @@ color: rgb(0,0,0)
           margin-left: -30px;
         }
 
-        .events li:before:first-child {
+
+      .events-list-li:before:first-child {
             border-radius: 50%;
             width: 15px;
             height: 15px;
@@ -111,21 +109,21 @@ color: rgb(0,0,0)
 
 
         }
-        .events li:last-child{
+    .events-list-li:last-child{
             border: 0px;
             padding-bottom: 0;
             top: 0px;
   
           }
 
-          .events li p{
+        .events-list-li p{
             position: relative;
             top: -4px;
               margin-bottom: 0px !important;
           }
-        
 
-      .events li:before{
+
+      .events .events-list-li:before{
           content: '';
           width: 15px;
           height: 15px;
@@ -186,12 +184,16 @@ color: rgb(0,0,0)
     margin-top: 2.5rem;
 }
 
+.border{
+    border-width: 2px;
+}
+
 
 :is(.dark) .entry:hover{
     transition: background-color 1s, border 1s;
     padding: 2px;
-    background-color: rgba(246, 246, 246, 0.06);
-    border: 2px dashed rgba(100, 100, 100, 0.27);
+    background-color: rgba(72, 72, 72, 0.23);
+    border: 2px dashed rgba(255, 255, 255, 0.27);
     animation: bgColor 100s infinite linear 10s;
 
     /* transform: rotate(360deg); */
@@ -500,13 +502,24 @@ margin-top: 2px;
 /* Shamelessly stolen from Bootstrap. Which is also probably shamelessly stolen from somewhere else. #codethieves */
 
 .helpful-info{
-  background-color: #cce5ff;
+  background-color: rgba(204, 151, 211, 0.63);
   border-radius: 0.25rem;
   padding: 0.75rem 0.25rem;
   text-align: center;
-  color: black;
+  color: black !important;
   margin: 0.5em;
   border: 0.5px #cce5f2;
+
+}
+
+.helpful-info2{
+    background-color: rgba(237, 80, 226, 0.63);
+    border-radius: 0.25rem;
+    padding: 0.75rem 0.25rem;
+    text-align: center;
+    color: black !important;
+    margin: 0.5em;
+    border: 0.5px #cce5f2;
 
 }
 
@@ -664,7 +677,7 @@ margin-bottom: 0px !important;
   background-color:#f52e2e3d;
   border: 5px dashed #f52e2e3d;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 25px;
   margin-bottom: 20px;
 }
 
@@ -694,8 +707,9 @@ margin-bottom: 0px !important;
   border-radius: 2px;
   background-color:#2ef5633d;
   border: 5px dashed #2ef563ec;
-  padding-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -729,7 +743,7 @@ margin-bottom: 0px !important;
 
 .entry:hover {
     transition: background-color 1s, border 1s;
-    background-color: rgba(238, 236, 236, 0.36);
+    background-color: rgba(255, 255, 255, 0.65);
     border: 2px dashed rgba(0, 0, 0, 0.58);
     padding: 2px;
   /*  transform: rotate(360deg); */
@@ -778,17 +792,145 @@ margin-bottom: 0px !important;
 }
 /* NE Multi-image functionality */
 .image {
-  padding: 5px;
+    padding: 5px;
     width: fit-content;
 }
 
 
 
-
+/* CRITICAL WEBSITE STYLING */
 
 * {
-    font-family: 'Roboto';
+    font-family: 'Lato';
 }
 
 
 
+
+
+#docs-site-logo:has(>span){
+  color: #ee70eb !important;
+  position: sticky !important;
+
+}
+
+
+
+.uc-introduction{
+    border-radius: 0.25em;
+    border: 4px dashed #61126f;
+    background-color: rgba(220, 87, 229, 0.2);
+    font-family: 'Klee', serif;
+    font-size: 20px;
+    height: fit-content;
+    box-shadow: 0px 3px 3px rgba(65, 109, 153, 0.5);
+    padding-top: 25px;
+    background: linear-gradient(145deg, rgba(151, 32, 146, 0.78) 0%, rgba(200,81,205,0.5) 46%, rgb(173, 75, 181) 100%);
+    text-align: center;
+    margin-bottom: 25px;
+
+    & ol {
+        line-height: 20px;
+    }
+
+}
+
+.uc-introduction:hover{
+    animation: bgColor 10s infinite linear 10s;
+}
+
+
+
+.magic {
+    &:before,
+    &:after {
+        content: "";
+        top: -4000%;
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        left: 0;
+        opacity: 0.5;
+        background-image: url(http://www.freepngimg.com/download/winter_snow/4-2-white-snow-png.png);
+        background-size: 70%;
+        animation: snow linear infinite 800s;
+    }
+}
+
+
+
+.docs-markdown table.compact{
+font-size: 18px !important;
+
+}
+
+ tr:nth-child(odd){
+  background-color: rgba(255, 255, 255, 0.452);
+
+
+}
+tr:nth-child(even){
+  background-color: rgba(255, 255, 255, 0.898);
+}
+
+
+:is(.dark) tr:nth-child(odd){
+  background-color: rgba(96, 96, 96, 0);
+
+}
+
+:is(.dark) tr:nth-child(even){
+  background-color: rgb(0, 0, 0);
+
+}
+@-webkit-keyframes snow {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(40%);
+    }
+}
+
+
+
+.consolas{
+  font-family: 'Consolas'; !important;
+}
+
+.uc-experimental-infobox{
+  width: 50%;
+  height:50%;
+  border:  dashed #167a85
+}
+
+.uc-flex {
+  display: flex;
+  gap: 10px;
+}
+
+.uc-experimental-infobox p{
+  margin: 0 !important;
+}
+
+
+.docs-markdown .table-wrapper{
+  border-radius: 0%;
+}
+
+.docs-markdown figure{
+  margin:0 !important;
+}
+
+table{
+  font-size: 17px !important;
+}
+
+.uc-text{
+  max-width: 600px;
+  white-space: pre-line;
+  overflow-wrap: normal;
+  font-size: 23px;
+  padding: 0.2em;
+  border: 2px solid black;
+}
