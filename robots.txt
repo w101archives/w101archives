@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://w101archives.github.io/sitemap.xml.gz
+Sitemap: https://w101archives.github.io/w101archives/sitemap.xml.gz
