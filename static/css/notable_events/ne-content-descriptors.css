@@ -1,0 +1,54 @@
+
+
+/* 16/01/2024 - Content Descriptors. */
+/* Any confusion, check the internal docs. */
+
+/* 1. Content Descriptor - Content Warning [Red] */
+
+
+.cd-warning-bar{
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    font-size: 20px;
+    line-height: 1.4;
+    max-height: 30px;
+
+
+
+}
+
+.cd-warning-text {
+    color: red;
+    border: 2px solid red;
+    margin-bottom: 60px;
+    background: rgba(246, 98, 98, 0.48);
+
+}
+
+/* --------------------------------------- */
+
+/* 2. Content Descriptor - Outdated/Superseded [Purple] */
+
+
+
+.cd-outdated-event-bar{
+    color: white;
+    font-weight: 700;
+    background-color: purple;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 100px;
+    max-height: 30px;
+
+
+
+}
+
+.cd-outdated-event-text {
+    color: red;
+    border: 2px solid purple;
+    margin-bottom: 60px;
+    background: rgba(246,98,239,0.48);
+
+}

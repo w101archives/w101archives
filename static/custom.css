@@ -691,6 +691,15 @@ margin-bottom: 0px !important;
 
 }
 
+
+.additional-major {
+    border-radius: 2px;
+    background-color: rgba(188, 170, 170, 0.12);
+    border: 5px solid rgba(245, 89, 46, 0.24);
+    padding: 5px;
+
+}
+
 .mb-0{
     margin-bottom: 0 !important;
 }
@@ -973,3 +982,4 @@ table{
     padding: 0.2em;
     border: 2px solid black;
 }
+
