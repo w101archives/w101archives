@@ -1,5 +1,3 @@
-/* Components functionality */
-
 /*TODO: W101Archives v3.05 - Part Two: Remove this file. */
 
 
@@ -12,6 +10,11 @@
     height: fit-content;
     border: 1px white solid;
       }
+
+.fl-l{
+    float: left;
+    width: 66.6%;
+}
 
 
 .card-container {
@@ -814,7 +817,7 @@ margin-bottom: 0px !important;
 /* CRITICAL WEBSITE STYLING */
 
 body {
-    font-family: 'Lato';
+    font-family: 'Roboto';
 }
 
 
@@ -845,8 +848,12 @@ b, strong{
 }
 
 
+/* da da da */
 
-
+.klee{
+    font-family: 'Klee', serif;
+    font-weight: 500;
+}
 
 .uc-introduction{
     border-radius: 0.25em;
@@ -983,3 +990,10 @@ table{
     border: 2px solid black;
 }
 
+.nom p{
+    margin: 0 !important;
+}
+
+.ul{
+    text-decoration: underline;
+}
