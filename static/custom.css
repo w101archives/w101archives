@@ -333,7 +333,7 @@ p{
             background-color: rgba(188, 170, 170, 0.12);
             border: 3px solid red;
             margin-bottom: 20px;
-              padding: 10px;
+              padding: 15px;
 
           }
 
@@ -475,6 +475,7 @@ max-width: 2000%;
   border: 2px solid #1956AF;
   position: relative;
   margin-top: 5px;
+    padding: 15px;
 }
 
 
@@ -712,7 +713,6 @@ margin-bottom: 0px !important;
   border-radius: 2px;
   background-color: rgba(188, 170, 170, 0.12);
   border: 5px solid #f52ef53d;
-  color: black;
 
 
 
